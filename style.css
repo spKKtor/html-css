@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+	background-attachment: fixed;
+}
+
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+    background-image:url('images/BagImg.jpg')
+
+}
+
+.nav{
+	display:flex;
+	background-color: black;
+	opacity: 0.8;
+}
+
+.nav ul{
+	display: flex;
+	list-style-type: none;
+}
+
+.nav a{
+	color:white;
+	font-size: 25px;
+	display: inline-block;
+	padding: 20px;
+}
+
+.nav li:hover a{
+	background-color: gray;
+}
+
+.container{
+    width:50%;
+    margin:0 auto;
+    background-color:white; 
+ 	border-radius:25px;
+}
+
+.avaIinfo{
+	display: flex;
+	padding:15px;
+}
+
+.avaIinfo img{
+	height:300px;
+	width:200px;
+	border-radius:5px;
+}
+
+.avaIinfo p{
+	margin-left: 20px;
+	font-size:35px;
+}
+
+.opus{
+	font-size:23px;
+	padding:15px;
+}
+
+.p1{
+	padding-top:20px;
+}
+
+.p2{
+	padding-top:20px;
+}
+
+.p3{
+	padding-top:20px;
+}
+
+.video{
+	width:100%;
+	border-radius:20px;
+}
+
+.vidos{
+	padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.Gamescreens{
+	padding:20px;
+}
+
+.Gamescreen1{
+	width:300px;
+}
+
+.Gamescreen2{
+	width:300px;
+}
+
+.Gamescreen3{
+	width:300px;
+}
+
+.Gamescreen4{
+	width:300px;
+}
+
+.Gamescreen5{
+	width:300px;
+}
+
+.Gamescreen6{
+	width:300px;
+}
+
+.fotoURL{
+	width:200px;
+	position: relative;
+	bottom:10px;
+	left:350px;
+}
+
+.fotoURLq{
+	width:160px;
+	position: relative;
+	bottom:35px;
+	left:75px;
+}
+
+.fotoURLw{
+	width:370px;
+	position: relative;
+	bottom:20px;
+	left:-230px;
+}
+
+.Download{
+	padding:20px;
+}
+
+.Download p{
+	display:flex;
+	justify-content:center;
+	font-size:50px;
+}
+
+.contact{
+	display:flex;
+	justify-content:center;
+	background-color:black;
+	height:40px;
+	color:white;
+	font-size:25px;
+}
