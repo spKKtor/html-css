@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
 *{
 	margin:0;
 	padding:0;
@@ -8,7 +10,7 @@ body{
     margin:0;
     padding:0;
     height:100%;
-    background-image:url('images/BagImg.jpg')
+    background-image:url('images/BagImg.jpg');
 
 }
 
@@ -16,6 +18,7 @@ body{
 	display:flex;
 	background-color: black;
 	opacity: 0.8;
+	margin-bottom: 20px;
 }
 
 .nav ul{
@@ -35,7 +38,7 @@ body{
 }
 
 .container{
-    width:50%;
+    width:80%;
     margin:0 auto;
     background-color:white; 
  	border-radius:25px;
@@ -87,6 +90,10 @@ body{
 
 .Gamescreens{
 	padding:20px;
+	display: flex;
+  justify-content:center;
+  flex-direction: row;
+
 }
 
 .Gamescreen1{
@@ -113,42 +120,61 @@ body{
 	width:300px;
 }
 
-.fotoURL{
-	width:200px;
-	position: relative;
-	bottom:10px;
-	left:350px;
-}
 
-.fotoURLq{
-	width:160px;
-	position: relative;
-	bottom:35px;
-	left:75px;
-}
 
-.fotoURLw{
-	width:370px;
-	position: relative;
-	bottom:20px;
-	left:-230px;
-}
 
+/*--- Download ---*/
 .Download{
+	margin:20px;
 	padding:20px;
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+	background-image: linear-gradient(0deg, #dddddd, transparent);
+    box-shadow: 0px 0px 1px 1px #dadada;
 }
-
+.Download h3{
+	text-align: center;
+    font-size: 60px;
+    padding-bottom: 30px;
+    
+    margin-bottom: 50px;
+	font-family: "Amatic SC", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.Download > div{	
+	display: flex;
+    justify-content: space-between;
+	
+}
+.Download a{	
+	text-decoration:none;
+	padding: 5px;
+}
+.Download a img{
+	height:200px;		
+}
 .Download p{
-	display:flex;
-	justify-content:center;
-	font-size:50px;
+	height:250px;
+	opacity:0.8;
+}
+.Download p:hover{
+	opacity:1;	
 }
 
+
+/*--- footer ---*/
 .contact{
-	display:flex;
-	justify-content:center;
-	background-color:black;
-	height:40px;
-	color:white;
-	font-size:19px;
+	background-color: black;    
+    color: white;
+    font-size: 19px;
+    padding: 30px;
+    text-align: center;
+}
+.contact span{
+	padding:15px;
+}
+.contact span:hover{
+	color: red;
 }
