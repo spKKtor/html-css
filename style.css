@@ -60,6 +60,10 @@ body{
 	font-size:35px;
 }
 
+h1{
+	margin-left: 20px;
+}
+
 .opus{
 	font-size:23px;
 	padding:15px;
@@ -120,7 +124,13 @@ body{
 	width:300px;
 }
 
+.Gamescreen7{
+	width:300px;
+}
 
+.Gamescreen8	{
+	width:300px;
+}
 
 
 /*--- Download ---*/
